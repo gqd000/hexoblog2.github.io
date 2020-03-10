@@ -522,7 +522,7 @@ if (windowWidth > 768) {
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    735
+                    726
                 </div>
                 
 
@@ -549,7 +549,8 @@ if (windowWidth > 768) {
 <p>这里我将记录我学习python基础的笔记来记录我的学习</p>
 </blockquote>
 <h2 id="一、字符串"><a href="#一、字符串" class="headerlink" title="一、字符串"></a>一、字符串</h2><ol>
-<li>字符串的基本操作<pre class=" language-python"><code class="language-python">course <span class="token operator">=</span> <span class="token string">"Python for Beginners"</span>
+<li><p>字符串的基本操作</p>
+<pre class=" language-python"><code class="language-python">course <span class="token operator">=</span> <span class="token string">"Python for Beginners"</span>
 <span class="token keyword">print</span><span class="token punctuation">(</span>course<span class="token punctuation">)</span>
 <span class="token keyword">print</span><span class="token punctuation">(</span>course<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">)</span> <span class="token comment" spellcheck="true"># 输出第一个字符</span>
 <span class="token keyword">print</span><span class="token punctuation">(</span>course<span class="token punctuation">[</span><span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">)</span> <span class="token comment" spellcheck="true"># 输出最后一个字符</span>
@@ -560,13 +561,15 @@ if (windowWidth > 768) {
 <span class="token keyword">print</span><span class="token punctuation">(</span>course<span class="token punctuation">[</span><span class="token punctuation">:</span><span class="token punctuation">]</span><span class="token punctuation">)</span> <span class="token comment" spellcheck="true">#输出所有</span>
 <span class="token keyword">print</span><span class="token punctuation">(</span>course<span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">:</span><span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">)</span> <span class="token comment" spellcheck="true">#左开右闭</span></code></pre>
 </li>
-<li>对字符串大小写的改变<pre class=" language-python"><code class="language-python">course <span class="token operator">=</span> <span class="token string">"Python for Beginners"</span>
+<li><p>对字符串大小写的改变</p>
+<pre class=" language-python"><code class="language-python">course <span class="token operator">=</span> <span class="token string">"Python for Beginners"</span>
 <span class="token keyword">print</span><span class="token punctuation">(</span>len<span class="token punctuation">(</span>course<span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token comment" spellcheck="true">#字符串长度</span>
 <span class="token keyword">print</span><span class="token punctuation">(</span>course<span class="token punctuation">.</span>upper<span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token comment" spellcheck="true">#转换大写的函数,加 “.”有针对不同类型变量的函数，非通用</span>
 <span class="token keyword">print</span><span class="token punctuation">(</span>course<span class="token punctuation">.</span>lower<span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token comment" spellcheck="true">#转换小写</span>
 <span class="token keyword">print</span><span class="token punctuation">(</span>course<span class="token punctuation">)</span></code></pre>
 </li>
-<li>字符串中字符的检索<pre class=" language-python"><code class="language-python">course <span class="token operator">=</span> <span class="token string">"Python for Beginners"</span>
+<li><p>字符串中字符的检索</p>
+<pre class=" language-python"><code class="language-python">course <span class="token operator">=</span> <span class="token string">"Python for Beginners"</span>
 <span class="token keyword">print</span><span class="token punctuation">(</span>course<span class="token punctuation">.</span>find<span class="token punctuation">(</span><span class="token string">'P'</span><span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token comment" spellcheck="true">#寻找字符位置</span>
 <span class="token keyword">print</span><span class="token punctuation">(</span>course<span class="token punctuation">.</span>find<span class="token punctuation">(</span><span class="token string">'Beginners'</span><span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token comment" spellcheck="true">#寻找字符串首字母出现位置</span>
 <span class="token keyword">print</span><span class="token punctuation">(</span>course<span class="token punctuation">.</span>replace<span class="token punctuation">(</span><span class="token string">'Beginners'</span><span class="token punctuation">,</span> <span class="token string">'Absolute'</span><span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token comment" spellcheck="true">#替换字符串</span>
@@ -576,7 +579,8 @@ if (windowWidth > 768) {
 <p>注：在保留字符前加“ \ ”以转义，保证输出原字符</p>
 </blockquote>
 </li>
-<li>控制字符串长度<pre class=" language-python"><code class="language-python">first_name <span class="token operator">=</span> input <span class="token punctuation">(</span><span class="token string">"请输入你的名字："</span><span class="token punctuation">)</span>
+<li><p>控制字符串长度</p>
+<pre class=" language-python"><code class="language-python">first_name <span class="token operator">=</span> input <span class="token punctuation">(</span><span class="token string">"请输入你的名字："</span><span class="token punctuation">)</span>
 <span class="token keyword">if</span> len<span class="token punctuation">(</span>first_name<span class="token punctuation">)</span> <span class="token operator">&lt;</span> <span class="token number">3</span><span class="token punctuation">:</span>
  <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"first_Name must be at laest 3 characters!"</span><span class="token punctuation">)</span>
 <span class="token keyword">elif</span> len<span class="token punctuation">(</span>first_name<span class="token punctuation">)</span> <span class="token operator">></span> <span class="token number">10</span><span class="token punctuation">:</span>
@@ -584,20 +588,17 @@ if (windowWidth > 768) {
 <span class="token keyword">else</span> <span class="token punctuation">:</span>
  <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"first_Name looks good!"</span><span class="token punctuation">)</span></code></pre>
 </li>
-<li>字符串实例：星座Unicode 编码<pre class=" language-python"><code class="language-python"><span class="token keyword">for</span> i <span class="token keyword">in</span> range<span class="token punctuation">(</span><span class="token number">12</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
-  <span class="token keyword">print</span><span class="token punctuation">(</span>chr<span class="token punctuation">(</span><span class="token number">9800</span> <span class="token operator">+</span> i<span class="token punctuation">)</span><span class="token punctuation">,</span> end<span class="token operator">=</span><span class="token string">" "</span><span class="token punctuation">)</span>
-</code></pre>
+<li><p>字符串实例：星座Unicode 编码</p>
+<pre class=" language-python"><code class="language-python"><span class="token keyword">for</span> i <span class="token keyword">in</span> range<span class="token punctuation">(</span><span class="token number">12</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+  <span class="token keyword">print</span><span class="token punctuation">(</span>chr<span class="token punctuation">(</span><span class="token number">9800</span> <span class="token operator">+</span> i<span class="token punctuation">)</span><span class="token punctuation">,</span> end<span class="token operator">=</span><span class="token string">" "</span><span class="token punctuation">)</span></code></pre>
+<h2 id="二、关于time库"><a href="#二、关于time库" class="headerlink" title="二、关于time库"></a>二、关于time库</h2></li>
+<li><p>time库</p>
+<pre class=" language-python"><code class="language-python"><span class="token comment" spellcheck="true"># 时间获取：time() ctime() gmtime()</span>
+<span class="token keyword">import</span> time
+time<span class="token punctuation">.</span>time<span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token comment" spellcheck="true">#输出时间戳  （浮点数）</span>
+time<span class="token punctuation">.</span>ctime<span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token comment" spellcheck="true"># 输出星期、日期等  （字符串）</span>
+time<span class="token punctuation">.</span>gmtime<span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token comment" spellcheck="true"># 输出计算机可处理的时间</span></code></pre>
 </li>
-</ol>
-<h1 id="in-put-in-put-lower"><a href="#in-put-in-put-lower" class="headerlink" title="in_put = in_put.lower()"></a>in_put = in_put.lower()</h1><p>#in_put = input(“&gt; “).lower</p>
-<pre><code>## 二、关于time库
-1. time库
-```python
-# 时间获取：time() ctime() gmtime()
-import time
-time.time() #输出时间戳  （浮点数）
-time.ctime() # 输出星期、日期等  （字符串）
-time.gmtime() # 输出计算机可处理的时间</code></pre><ol start="2">
 <li><p>时间格式化 （strftime( ) strpyime( )）</p>
 <pre class=" language-python"><code class="language-python"><span class="token keyword">import</span> time
 t <span class="token operator">=</span> time<span class="token punctuation">.</span>gmtime<span class="token punctuation">(</span><span class="token punctuation">)</span>
@@ -645,7 +646,7 @@ start <span class="token operator">=</span> time<span class="token punctuation">
 <span class="token keyword">except</span> ValueError<span class="token punctuation">:</span>  <span class="token comment" spellcheck="true"># 如果输入类型不对（只转换类型错误）</span>
  <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"Indvaid value"</span><span class="token punctuation">)</span></code></pre>
 </li>
-<li><p>不指定错误类型 （<del>不用记错误类型了</del> :joy:）</p>
+<li><p>不指定错误类型 （<del>不用记错误类型了</del> :smile:）</p>
 <blockquote>
 <p>只要是错误，不管什么类型，都会执行 except 内容</p>
 </blockquote>
