@@ -522,7 +522,7 @@ if (windowWidth > 768) {
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    606
+                    603
                 </div>
                 
 
@@ -553,32 +553,38 @@ if (windowWidth > 768) {
 <span class="token keyword">print</span><span class="token punctuation">(</span>a<span class="token punctuation">)</span></code></pre>
 </li>
 <li>评估函数和强制转换<pre class=" language-python"><code class="language-python">eval<span class="token punctuation">(</span><span class="token punctuation">)</span> 评估函数：字符串转数字等</code></pre>
-<h1 id="强制转换"><a href="#强制转换" class="headerlink" title="强制转换"></a>强制转换</h1>birth = input (“Birth year: “)<br>a = 2020 - int(birth)<br>print(“You age: “ + str(a))<br>print(f”You age: {str(a)}”)<pre><code>&gt; 强制转换实例
-``` python
-weigth = input("Please write you weight(g): ")
-kg = int(weigth) / 1000
-print("That is your weight(kg): " + str(kg))
-print(kg)</code></pre></li>
+<h1 id="二、强制转换"><a href="#二、强制转换" class="headerlink" title="二、强制转换"></a>二、强制转换</h1><pre class=" language-python"><code class="language-python">birth <span class="token operator">=</span> input <span class="token punctuation">(</span><span class="token string">"Birth year: "</span><span class="token punctuation">)</span>
+a <span class="token operator">=</span> <span class="token number">2020</span> <span class="token operator">-</span> int<span class="token punctuation">(</span>birth<span class="token punctuation">)</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"You age: "</span> <span class="token operator">+</span> str<span class="token punctuation">(</span>a<span class="token punctuation">)</span><span class="token punctuation">)</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span>f<span class="token string">"You age: {str(a)}"</span><span class="token punctuation">)</span></code></pre>
+<blockquote>
+<p>强制转换实例</p>
+</blockquote>
+<pre class=" language-python"><code class="language-python">weigth <span class="token operator">=</span> input<span class="token punctuation">(</span><span class="token string">"Please write you weight(g): "</span><span class="token punctuation">)</span>
+kg <span class="token operator">=</span> int<span class="token punctuation">(</span>weigth<span class="token punctuation">)</span> <span class="token operator">/</span> <span class="token number">1000</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"That is your weight(kg): "</span> <span class="token operator">+</span> str<span class="token punctuation">(</span>kg<span class="token punctuation">)</span><span class="token punctuation">)</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span>kg<span class="token punctuation">)</span></code></pre>
+</li>
 <li>输入提示符和字符串的拼接<pre class=" language-python"><code class="language-python">first_name <span class="token operator">=</span> input <span class="token punctuation">(</span><span class="token string">"what is you first_name? "</span><span class="token punctuation">)</span>
 <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"Hi "</span> <span class="token operator">+</span> first_name <span class="token operator">+</span> <span class="token string">"!"</span><span class="token punctuation">)</span> <span class="token comment" spellcheck="true">#字符串连接</span>
 clour <span class="token operator">=</span> input <span class="token punctuation">(</span><span class="token string">"what is your favourite clour? "</span><span class="token punctuation">)</span>
 <span class="token keyword">print</span><span class="token punctuation">(</span>first_name <span class="token operator">+</span> <span class="token string">" likes "</span> <span class="token operator">+</span> clour<span class="token punctuation">)</span></code></pre>
 </li>
-<li>多行字符串<pre class=" language-python"><code class="language-python">email <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token string">''</span>'
-Hi<span class="token punctuation">,</span>josh<span class="token punctuation">:</span>
-</code></pre>
+<li>多行字符串<pre class=" language-python"><code class="language-python">email <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token triple-quoted-string string">'''
+Hi,josh:
+This is a letter for you! 
+Thank you!
+The Team
+'''</span><span class="token punctuation">)</span>
+<span class="token keyword">print</span> <span class="token punctuation">(</span>email<span class="token punctuation">)</span>   <span class="token comment" spellcheck="true"># 输出 </span><span class="token triple-quoted-string string">''' '''</span>的内容（原格式）</code></pre>
 </li>
-</ol>
-<p>This is a letter for you!</p>
-<p>Thank you!<br>The Team<br>‘’’)<br>print (email) # 输出 ‘’’ ‘’’的内容（原格式）</p>
-<pre><code>5. 格式化输出
-``` python
-first = "John"
-last  = "Smith"
-massage = first + " [" + last + "] is a coder!"#简单句子
-msg = f"{first} [{last}] is a coder!"#优化：留空
-print(massage)
-print(msg)</code></pre><ol start="6">
+<li>格式化输出<pre class=" language-python"><code class="language-python">first <span class="token operator">=</span> <span class="token string">"John"</span>
+last  <span class="token operator">=</span> <span class="token string">"Smith"</span>
+massage <span class="token operator">=</span> first <span class="token operator">+</span> <span class="token string">" ["</span> <span class="token operator">+</span> last <span class="token operator">+</span> <span class="token string">"] is a coder!"</span><span class="token comment" spellcheck="true">#简单句子</span>
+msg <span class="token operator">=</span> f<span class="token string">"{first} [{last}] is a coder!"</span><span class="token comment" spellcheck="true">#优化：留空</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span>massage<span class="token punctuation">)</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span>msg<span class="token punctuation">)</span></code></pre>
+</li>
 <li>输入数据个数不确定时<pre class=" language-python"><code class="language-python"><span class="token keyword">def</span> <span class="token function">shuru</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
   li <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token punctuation">]</span>
   shuru <span class="token operator">=</span> input<span class="token punctuation">(</span><span class="token string">"输入数据：（回车结束） "</span><span class="token punctuation">)</span>
