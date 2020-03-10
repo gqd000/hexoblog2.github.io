@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://www.hexoblog.gq/"/>
-  <updated>2020-03-10T15:47:37.653Z</updated>
+  <updated>2020-03-10T15:56:09.645Z</updated>
   <id>https://www.hexoblog.gq/</id>
   
   <author>
@@ -20,8 +20,8 @@
     <title>python学习笔记（三）</title>
     <link href="https://www.hexoblog.gq/posts/d7a0.html"/>
     <id>https://www.hexoblog.gq/posts/d7a0.html</id>
-    <published>2020-03-10T15:47:08.300Z</published>
-    <updated>2020-03-10T15:47:37.653Z</updated>
+    <published>2020-03-09T16:00:00.000Z</published>
+    <updated>2020-03-10T15:56:09.645Z</updated>
     
     <summary type="html">
     
@@ -55,8 +55,8 @@
     <title>python学习笔记（二）</title>
     <link href="https://www.hexoblog.gq/posts/dbd9.html"/>
     <id>https://www.hexoblog.gq/posts/dbd9.html</id>
-    <published>2020-03-10T15:27:56.329Z</published>
-    <updated>2020-03-10T15:45:49.113Z</updated>
+    <published>2020-03-08T16:00:00.000Z</published>
+    <updated>2020-03-10T15:55:28.784Z</updated>
     
     <summary type="html">
     
@@ -87,8 +87,8 @@
     <title>python学习笔记（一）</title>
     <link href="https://www.hexoblog.gq/posts/4ba3.html"/>
     <id>https://www.hexoblog.gq/posts/4ba3.html</id>
-    <published>2020-03-07T18:24:56.283Z</published>
-    <updated>2020-03-10T15:46:03.565Z</updated>
+    <published>2020-03-07T16:00:00.000Z</published>
+    <updated>2020-03-10T15:55:56.606Z</updated>
     
     <summary type="html">
     
@@ -131,7 +131,7 @@ print(f”You age: {str(a)}”)
     <link href="https://www.hexoblog.gq/posts/c267.html"/>
     <id>https://www.hexoblog.gq/posts/c267.html</id>
     <published>2020-03-04T16:00:00.000Z</published>
-    <updated>2020-03-10T15:02:05.993Z</updated>
+    <updated>2020-03-10T15:51:37.043Z</updated>
     
     <summary type="html">
     
@@ -144,6 +144,8 @@ Step 1
     </summary>
     
     
+      <category term="开博第一篇" scheme="https://www.hexoblog.gq/categories/%E5%BC%80%E5%8D%9A%E7%AC%AC%E4%B8%80%E7%AF%87/"/>
+    
     
       <category term="生活" scheme="https://www.hexoblog.gq/tags/%E7%94%9F%E6%B4%BB/"/>
     
@@ -154,7 +156,7 @@ Step 1
     <link href="https://www.hexoblog.gq/posts/16107.html"/>
     <id>https://www.hexoblog.gq/posts/16107.html</id>
     <published>2020-02-29T16:00:00.000Z</published>
-    <updated>2020-03-10T03:38:01.438Z</updated>
+    <updated>2020-03-10T15:51:03.563Z</updated>
     
     <summary type="html">
     
@@ -173,6 +175,8 @@ Mo
     
     </summary>
     
+    
+      <category term="Hello world!" scheme="https://www.hexoblog.gq/categories/Hello-world/"/>
     
     
       <category term="IT" scheme="https://www.hexoblog.gq/tags/IT/"/>
