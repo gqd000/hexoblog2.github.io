@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="标签: 生活, 分享,电影,IT,感悟">
+    <meta name="keywords" content="python学习笔记（二）, 分享,电影,IT,感悟">
     <meta name="description" content="分享一些各方面有趣的事">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -13,7 +13,7 @@
     <meta name="format-detection" content="telephone=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <title>标签: 生活 | 青笙挽歌</title>
+    <title>python学习笔记（二） | 青笙挽歌</title>
     <link rel="icon" type="image/png" href="https://cdn.jsdelivr.net/gh/gqd000/hexoblog2.github.io/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/gqd000/hexoblog2.github.io/libs/awesome/css/all.css">
@@ -366,12 +366,12 @@ if (windowWidth > 768) {
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('https://cdn.jsdelivr.net/gh/gqd000/hexoblog2.github.io/medias/featureimages/0.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('https://cdn.jsdelivr.net/gh/gqd000/hexoblog2.github.io/medias/featureimages/3.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title"></h1>
+                    <h1 class="description center-align post-title">python学习笔记（二）</h1>
                 </div>
             </div>
         </div>
@@ -486,12 +486,25 @@ if (windowWidth > 768) {
             <div class="row tag-cate">
                 <div class="col s7">
                     
-                          <div class="article-tag">
-                            <span class="chip bg-color">无标签</span>
-                          </div>
+                    <div class="article-tag">
+                        
+                            <a href="/tags/IT/">
+                                <span class="chip bg-color">IT</span>
+                            </a>
+                        
+                    </div>
                     
                 </div>
                 <div class="col s5 right-align">
+                    
+                    <div class="post-cate">
+                        <i class="fas fa-bookmark fa-fw icon-category"></i>
+                        
+                            <a href="/categories/Python%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" class="post-category">
+                                Python学习笔记
+                            </a>
+                        
+                    </div>
                     
                 </div>
             </div>
@@ -500,7 +513,7 @@ if (windowWidth > 768) {
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2020-03-05
+                    2020-03-10
                 </div>
                 
 
@@ -509,14 +522,14 @@ if (windowWidth > 768) {
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    52
+                    735
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    1 分
+                    3 分
                 </div>
                 
 
@@ -532,7 +545,117 @@ if (windowWidth > 768) {
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <script>
+                <h1 id="python学习笔记（二）"><a href="#python学习笔记（二）" class="headerlink" title="python学习笔记（二）"></a>python学习笔记（二）</h1><blockquote>
+<p>这里我将记录我学习python基础的笔记来记录我的学习</p>
+</blockquote>
+<h2 id="一、字符串"><a href="#一、字符串" class="headerlink" title="一、字符串"></a>一、字符串</h2><ol>
+<li>字符串的基本操作<pre class=" language-python"><code class="language-python">course <span class="token operator">=</span> <span class="token string">"Python for Beginners"</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span>course<span class="token punctuation">)</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span>course<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">)</span> <span class="token comment" spellcheck="true"># 输出第一个字符</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span>course<span class="token punctuation">[</span><span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">)</span> <span class="token comment" spellcheck="true"># 输出最后一个字符</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span>course<span class="token punctuation">[</span><span class="token operator">-</span><span class="token number">2</span><span class="token punctuation">]</span><span class="token punctuation">)</span> <span class="token comment" spellcheck="true"># 输出倒数第二个字符</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span>course<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">:</span><span class="token number">3</span><span class="token punctuation">]</span><span class="token punctuation">)</span> <span class="token comment" spellcheck="true">#输出第0到3个字符</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span>course<span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">:</span><span class="token punctuation">]</span><span class="token punctuation">)</span> <span class="token comment" spellcheck="true">#输出从1以后的字符串</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span>course<span class="token punctuation">[</span><span class="token punctuation">:</span><span class="token number">5</span><span class="token punctuation">]</span><span class="token punctuation">)</span> <span class="token comment" spellcheck="true">#输出第5个以前的字符串</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span>course<span class="token punctuation">[</span><span class="token punctuation">:</span><span class="token punctuation">]</span><span class="token punctuation">)</span> <span class="token comment" spellcheck="true">#输出所有</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span>course<span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">:</span><span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">)</span> <span class="token comment" spellcheck="true">#左开右闭</span></code></pre>
+</li>
+<li>对字符串大小写的改变<pre class=" language-python"><code class="language-python">course <span class="token operator">=</span> <span class="token string">"Python for Beginners"</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span>len<span class="token punctuation">(</span>course<span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token comment" spellcheck="true">#字符串长度</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span>course<span class="token punctuation">.</span>upper<span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token comment" spellcheck="true">#转换大写的函数,加 “.”有针对不同类型变量的函数，非通用</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span>course<span class="token punctuation">.</span>lower<span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token comment" spellcheck="true">#转换小写</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span>course<span class="token punctuation">)</span></code></pre>
+</li>
+<li>字符串中字符的检索<pre class=" language-python"><code class="language-python">course <span class="token operator">=</span> <span class="token string">"Python for Beginners"</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span>course<span class="token punctuation">.</span>find<span class="token punctuation">(</span><span class="token string">'P'</span><span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token comment" spellcheck="true">#寻找字符位置</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span>course<span class="token punctuation">.</span>find<span class="token punctuation">(</span><span class="token string">'Beginners'</span><span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token comment" spellcheck="true">#寻找字符串首字母出现位置</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span>course<span class="token punctuation">.</span>replace<span class="token punctuation">(</span><span class="token string">'Beginners'</span><span class="token punctuation">,</span> <span class="token string">'Absolute'</span><span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token comment" spellcheck="true">#替换字符串</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span>course<span class="token punctuation">.</span>replace<span class="token punctuation">(</span><span class="token string">'P'</span><span class="token punctuation">,</span> <span class="token string">'J'</span><span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token comment" spellcheck="true">#替换字符</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">'Python'</span> <span class="token keyword">in</span> course<span class="token punctuation">)</span> <span class="token comment" spellcheck="true">#bool类型输出真假：“Python”是否在字符串中</span></code></pre>
+<blockquote>
+<p>注：在保留字符前加“ \ ”以转义，保证输出原字符</p>
+</blockquote>
+</li>
+<li>控制字符串长度<pre class=" language-python"><code class="language-python">first_name <span class="token operator">=</span> input <span class="token punctuation">(</span><span class="token string">"请输入你的名字："</span><span class="token punctuation">)</span>
+<span class="token keyword">if</span> len<span class="token punctuation">(</span>first_name<span class="token punctuation">)</span> <span class="token operator">&lt;</span> <span class="token number">3</span><span class="token punctuation">:</span>
+ <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"first_Name must be at laest 3 characters!"</span><span class="token punctuation">)</span>
+<span class="token keyword">elif</span> len<span class="token punctuation">(</span>first_name<span class="token punctuation">)</span> <span class="token operator">></span> <span class="token number">10</span><span class="token punctuation">:</span>
+ <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"first_Name must be a maximum of 10 characters!"</span><span class="token punctuation">)</span>
+<span class="token keyword">else</span> <span class="token punctuation">:</span>
+ <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"first_Name looks good!"</span><span class="token punctuation">)</span></code></pre>
+</li>
+<li>字符串实例：星座Unicode 编码<pre class=" language-python"><code class="language-python"><span class="token keyword">for</span> i <span class="token keyword">in</span> range<span class="token punctuation">(</span><span class="token number">12</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+  <span class="token keyword">print</span><span class="token punctuation">(</span>chr<span class="token punctuation">(</span><span class="token number">9800</span> <span class="token operator">+</span> i<span class="token punctuation">)</span><span class="token punctuation">,</span> end<span class="token operator">=</span><span class="token string">" "</span><span class="token punctuation">)</span>
+</code></pre>
+</li>
+</ol>
+<h1 id="in-put-in-put-lower"><a href="#in-put-in-put-lower" class="headerlink" title="in_put = in_put.lower()"></a>in_put = in_put.lower()</h1><p>#in_put = input(“&gt; “).lower</p>
+<pre><code># 2.关于time库
+1. time库
+```python
+# 时间获取：time() ctime() gmtime()
+import time
+time.time() #输出时间戳  （浮点数）
+time.ctime() # 输出星期、日期等  （字符串）
+time.gmtime() # 输出计算机可处理的时间</code></pre><ol start="2">
+<li><p>时间格式化 （strftime( ) strpyime( )）</p>
+<pre class=" language-python"><code class="language-python"><span class="token keyword">import</span> time
+t <span class="token operator">=</span> time<span class="token punctuation">.</span>gmtime<span class="token punctuation">(</span><span class="token punctuation">)</span>
+f <span class="token operator">=</span> time<span class="token punctuation">.</span>strftime<span class="token punctuation">(</span><span class="token string">"%Y-%m-%d %H:%M:%S"</span><span class="token punctuation">,</span>t<span class="token punctuation">)</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span>f<span class="token punctuation">)</span></code></pre>
+</li>
+<li><p>程序计时 （sleep( ) 、perf_counter( )）</p>
+<pre class=" language-python"><code class="language-python"><span class="token keyword">import</span> time
+start <span class="token operator">=</span> time<span class="token punctuation">.</span>perf_counter<span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token comment" spellcheck="true"># 计数起点不确定，需要用差</span>
+<span class="token comment" spellcheck="true"># (······代码······)</span>
+end <span class="token operator">=</span> time<span class="token punctuation">.</span>perf_counter<span class="token punctuation">(</span><span class="token punctuation">)</span>
+t <span class="token operator">=</span> end <span class="token operator">-</span> start</code></pre>
+</li>
+<li><p>程序休眠</p>
+<pre class=" language-python"><code class="language-python"><span class="token keyword">def</span> <span class="token function">wait</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+  time<span class="token punctuation">.</span>sleep<span class="token punctuation">(</span><span class="token number">3.3</span><span class="token punctuation">)</span>
+wait<span class="token punctuation">(</span><span class="token punctuation">)</span>  <span class="token comment" spellcheck="true"># 调用函数 程序休眠3.3秒</span></code></pre>
+</li>
+<li><p>time库的使用实例（文本进度条）</p>
+<pre class=" language-python"><code class="language-python"><span class="token keyword">import</span> time
+scale <span class="token operator">=</span> <span class="token number">50</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"执行开始"</span><span class="token punctuation">.</span>center<span class="token punctuation">(</span>scale<span class="token operator">//</span><span class="token number">2</span><span class="token punctuation">,</span> <span class="token string">"-"</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+start <span class="token operator">=</span> time<span class="token punctuation">.</span>perf_counter<span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token keyword">for</span> i <span class="token keyword">in</span> range<span class="token punctuation">(</span>scale <span class="token operator">+</span> <span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+ a <span class="token operator">=</span> <span class="token string">'*'</span> <span class="token operator">*</span> i
+ b <span class="token operator">=</span> <span class="token string">'.'</span> <span class="token operator">*</span> <span class="token punctuation">(</span>scale <span class="token operator">-</span> i<span class="token punctuation">)</span>
+ c <span class="token operator">=</span> <span class="token punctuation">(</span>i<span class="token operator">/</span>scale<span class="token punctuation">)</span><span class="token operator">*</span><span class="token number">100</span>
+ dur <span class="token operator">=</span> time<span class="token punctuation">.</span>perf_counter<span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">-</span> start
+ <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"\r{:^3.0f}%[{}->{}]{:.2f}s"</span><span class="token punctuation">.</span>format<span class="token punctuation">(</span>c<span class="token punctuation">,</span> a<span class="token punctuation">,</span> b<span class="token punctuation">,</span> dur<span class="token punctuation">)</span><span class="token punctuation">,</span> end<span class="token operator">=</span><span class="token string">""</span><span class="token punctuation">)</span>
+ time<span class="token punctuation">.</span>sleep <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token number">0.5</span><span class="token punctuation">)</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"\n"</span> <span class="token operator">+</span> <span class="token string">"执行结束"</span><span class="token punctuation">.</span>center<span class="token punctuation">(</span>scale<span class="token operator">//</span><span class="token number">2</span><span class="token punctuation">,</span> <span class="token string">"-"</span><span class="token punctuation">)</span><span class="token punctuation">)</span></code></pre>
+<h1 id="3-输入错误的修正"><a href="#3-输入错误的修正" class="headerlink" title="3.输入错误的修正"></a>3.输入错误的修正</h1><blockquote>
+<p>例：错误修正：（假如输入字符串后会奔溃）<br>age = int(input(“Age: “))<br>print(age)</p>
+</blockquote>
+</li>
+<li><p>指定错误类型 （<del>比较麻烦</del>）</p>
+<pre class=" language-python"><code class="language-python"><span class="token keyword">try</span><span class="token punctuation">:</span>
+ age <span class="token operator">=</span> int<span class="token punctuation">(</span>input<span class="token punctuation">(</span><span class="token string">"Age: "</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+ income <span class="token operator">=</span> <span class="token number">10000</span>
+ risk <span class="token operator">=</span> income <span class="token operator">/</span> age
+ <span class="token keyword">print</span><span class="token punctuation">(</span>age<span class="token punctuation">)</span>
+ <span class="token keyword">print</span><span class="token punctuation">(</span>risk<span class="token punctuation">)</span>
+<span class="token keyword">except</span> ZeroDivisionError<span class="token punctuation">:</span> <span class="token comment" spellcheck="true"># 除0错误</span>
+ <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"Age can not be 0."</span><span class="token punctuation">)</span>
+<span class="token keyword">except</span> ValueError<span class="token punctuation">:</span>  <span class="token comment" spellcheck="true"># 如果输入类型不对（只转换类型错误）</span>
+ <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"Indvaid value"</span><span class="token punctuation">)</span></code></pre>
+</li>
+<li><p>不指定错误类型 （<del>不用记错误类型了</del> :joy:）</p>
+<blockquote>
+<p>只要是错误，不管什么类型，都会执行 except 内容</p>
+</blockquote>
+<pre class=" language-python"><code class="language-python"><span class="token keyword">try</span><span class="token punctuation">:</span>
+  <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token keyword">except</span><span class="token punctuation">:</span>
+  <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token punctuation">)</span></code></pre>
+<h1 id="END"><a href="#END" class="headerlink" title="END"></a>END</h1></li>
+</ol>
+<script>
         document.querySelectorAll('.github-emoji')
           .forEach(el => {
             if (!el.dataset.src) { return; }
@@ -575,7 +698,7 @@ if (windowWidth > 768) {
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://www.hexoblog.gq/life/index.html">https://www.hexoblog.gq/life/index.html</a>
+                    <a href="https://www.hexoblog.gq/posts/dbd9.html">https://www.hexoblog.gq/posts/dbd9.html</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -612,7 +735,11 @@ if (windowWidth > 768) {
                 <div class="post-meta__tag-list" style="display: inline-block;">
                     
                         <div class="article-tag">
-                            <span class="chip bg-color">无标签</span>
+                            
+                                <a href="/tags/IT/">
+                                    <span class="chip bg-color">IT</span>
+                                </a>
+                            
                         </div>
                     
                 </div>
@@ -656,7 +783,7 @@ if (windowWidth > 768) {
         repo: 'comments2.github.io',
         owner: 'gqd000',
         admin: "gqd000",
-        id: '2020-03-05T00-23-48',
+        id: '2020-03-10T23-27-56',
         distractionFreeMode: false  // Facebook-like distraction free mode
     });
 
@@ -940,42 +1067,49 @@ if (windowWidth > 768) {
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="far fa-dot-circle"></i>&nbsp;本篇
-            </div>
+                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/life/index.html">
+                <a href="/posts/d7a0.html">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/loading.gif" data-original="https://cdn.jsdelivr.net/gh/gqd000/hexoblog2.github.io/medias/featureimages/0.jpg" class="responsive-img" alt="">
+                        <img src="/medias/loading.gif" data-original="https://cdn.jsdelivr.net/gh/gqd000/hexoblog2.github.io/medias/featureimages/22.jpg" class="responsive-img" alt="python学习笔记（三）">
                         
-                        <span class="card-title"></span>
+                        <span class="card-title">python学习笔记（三）</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            
-        document.querySelectorAll('.github-emoji')
-          .forEach(el => {
-            if (!el.dataset.src) { return
+                            这是我学习python基础的笔记
                         
                     </div>
                     <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2020-03-05
-                            </span>
+                        <span class="publish-date">
+                            <i class="far fa-clock fa-fw icon-date"></i>2020-03-10
+                        </span>
                         <span class="publish-author">
                             
-                            <i class="fas fa-user fa-fw"></i>
-                            青笙挽歌
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/Python%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" class="post-category">
+                                    Python学习笔记
+                                </a>
+                            
                             
                         </span>
                     </div>
                 </div>
-
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/IT/">
+                        <span class="chip bg-color">IT</span>
+                    </a>
+                    
+                </div>
                 
             </div>
         </div>
@@ -983,40 +1117,48 @@ if (windowWidth > 768) {
         
         <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge right-badge text-color">
-                本篇&nbsp;<i class="far fa-dot-circle"></i>
+                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/life/index.html">
+                <a href="/posts/4ba3.html">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/loading.gif" data-original="https://cdn.jsdelivr.net/gh/gqd000/hexoblog2.github.io/medias/featureimages/0.jpg" class="responsive-img" alt="">
+                        <img src="/medias/loading.gif" data-original="https://cdn.jsdelivr.net/gh/gqd000/hexoblog2.github.io/medias/featureimages/7.jpg" class="responsive-img" alt="python学习笔记（一）">
                         
-                        <span class="card-title"></span>
+                        <span class="card-title">python学习笔记（一）</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            
-        document.querySelectorAll('.github-emoji')
-          .forEach(el => {
-            if (!el.dataset.src) { return
+                            这是我学习python基础的笔记
                         
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2020-03-05
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-03-08
                             </span>
                         <span class="publish-author">
                             
-                            <i class="fas fa-user fa-fw"></i>
-                            青笙挽歌
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/Python%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" class="post-category">
+                                    Python学习笔记
+                                </a>
+                            
                             
                         </span>
                     </div>
                 </div>
-
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/IT/">
+                        <span class="chip bg-color">IT</span>
+                    </a>
+                    
+                </div>
                 
             </div>
         </div>

@@ -497,6 +497,15 @@ if (windowWidth > 768) {
                 </div>
                 <div class="col s5 right-align">
                     
+                    <div class="post-cate">
+                        <i class="fas fa-bookmark fa-fw icon-category"></i>
+                        
+                            <a href="/categories/Python%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" class="post-category">
+                                Python学习笔记
+                            </a>
+                        
+                    </div>
+                    
                 </div>
             </div>
 
@@ -513,7 +522,7 @@ if (windowWidth > 768) {
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    550
+                    606
                 </div>
                 
 
@@ -539,42 +548,54 @@ if (windowWidth > 768) {
                 <h1 id="python学习笔记（一）"><a href="#python学习笔记（一）" class="headerlink" title="python学习笔记（一）"></a>python学习笔记（一）</h1><blockquote>
 <p>这里我将记录我学习python基础的笔记来记录我的学习</p>
 </blockquote>
-<h2 id="一、输入与输出"><a href="#一、输入与输出" class="headerlink" title="一、输入与输出"></a>一、输入与输出</h2><h2 id="1-输入与输出"><a href="#1-输入与输出" class="headerlink" title="1.输入与输出"></a>1.输入与输出</h2><pre class=" language-python"><code class="language-python">a <span class="token operator">=</span> input<span class="token punctuation">(</span><span class="token punctuation">)</span>
+<h2 id="一、输入与输出"><a href="#一、输入与输出" class="headerlink" title="一、输入与输出"></a>一、输入与输出</h2><ol>
+<li>输入与输出<pre class=" language-python"><code class="language-python">a <span class="token operator">=</span> input<span class="token punctuation">(</span><span class="token punctuation">)</span>
 <span class="token keyword">print</span><span class="token punctuation">(</span>a<span class="token punctuation">)</span></code></pre>
-<h2 id="2-评估函数和强制转换"><a href="#2-评估函数和强制转换" class="headerlink" title="2.评估函数和强制转换"></a>2.评估函数和强制转换</h2><pre class=" language-python"><code class="language-python">eval<span class="token punctuation">(</span><span class="token punctuation">)</span> 评估函数：字符串转数字等
-
-<span class="token comment" spellcheck="true"># 强制转换</span>
-birth <span class="token operator">=</span> input <span class="token punctuation">(</span><span class="token string">"Birth year: "</span><span class="token punctuation">)</span>
-a <span class="token operator">=</span> <span class="token number">2020</span> <span class="token operator">-</span> int<span class="token punctuation">(</span>birth<span class="token punctuation">)</span>
-<span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"You age: "</span> <span class="token operator">+</span> str<span class="token punctuation">(</span>a<span class="token punctuation">)</span><span class="token punctuation">)</span>
-<span class="token keyword">print</span><span class="token punctuation">(</span>f<span class="token string">"You age: {str(a)}"</span><span class="token punctuation">)</span></code></pre>
-<blockquote>
-<p>强制转换实例</p>
-</blockquote>
-<pre class=" language-python"><code class="language-python">weigth <span class="token operator">=</span> input<span class="token punctuation">(</span><span class="token string">"Please write you weight(g): "</span><span class="token punctuation">)</span>
-kg <span class="token operator">=</span> int<span class="token punctuation">(</span>weigth<span class="token punctuation">)</span> <span class="token operator">/</span> <span class="token number">1000</span>
-<span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"That is your weight(kg): "</span> <span class="token operator">+</span> str<span class="token punctuation">(</span>kg<span class="token punctuation">)</span><span class="token punctuation">)</span>
-<span class="token keyword">print</span><span class="token punctuation">(</span>kg<span class="token punctuation">)</span></code></pre>
-<h2 id="3-输入提示符和字符串的拼接"><a href="#3-输入提示符和字符串的拼接" class="headerlink" title="3.输入提示符和字符串的拼接"></a>3.输入提示符和字符串的拼接</h2><pre class=" language-python"><code class="language-python">first_name <span class="token operator">=</span> input <span class="token punctuation">(</span><span class="token string">"what is you first_name? "</span><span class="token punctuation">)</span>
+<ol start="2">
+<li>评估函数和强制转换<pre class=" language-python"><code class="language-python">eval<span class="token punctuation">(</span><span class="token punctuation">)</span> 评估函数：字符串转数字等
+</code></pre>
+</li>
+</ol>
+</li>
+</ol>
+<h1 id="强制转换"><a href="#强制转换" class="headerlink" title="强制转换"></a>强制转换</h1><p>birth = input (“Birth year: “)<br>a = 2020 - int(birth)<br>print(“You age: “ + str(a))<br>print(f”You age: {str(a)}”)</p>
+<pre><code>&gt; 强制转换实例
+``` python
+weigth = input("Please write you weight(g): ")
+kg = int(weigth) / 1000
+print("That is your weight(kg): " + str(kg))
+print(kg)</code></pre><ol start="3">
+<li>输入提示符和字符串的拼接<pre class=" language-python"><code class="language-python">first_name <span class="token operator">=</span> input <span class="token punctuation">(</span><span class="token string">"what is you first_name? "</span><span class="token punctuation">)</span>
 <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"Hi "</span> <span class="token operator">+</span> first_name <span class="token operator">+</span> <span class="token string">"!"</span><span class="token punctuation">)</span> <span class="token comment" spellcheck="true">#字符串连接</span>
 clour <span class="token operator">=</span> input <span class="token punctuation">(</span><span class="token string">"what is your favourite clour? "</span><span class="token punctuation">)</span>
 <span class="token keyword">print</span><span class="token punctuation">(</span>first_name <span class="token operator">+</span> <span class="token string">" likes "</span> <span class="token operator">+</span> clour<span class="token punctuation">)</span></code></pre>
-<h2 id="4-多行字符串"><a href="#4-多行字符串" class="headerlink" title="4.多行字符串"></a>4.多行字符串</h2><pre class=" language-python"><code class="language-python">email <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token triple-quoted-string string">'''
-Hi,josh:
-
-This is a letter for you!
-
-Thank you!
-The Team
-'''</span><span class="token punctuation">)</span>
-<span class="token keyword">print</span> <span class="token punctuation">(</span>email<span class="token punctuation">)</span> <span class="token comment" spellcheck="true"># 输出 </span><span class="token triple-quoted-string string">''' '''</span>的内容（原格式）</code></pre>
-<h2 id="5-格式化输出"><a href="#5-格式化输出" class="headerlink" title="5.格式化输出"></a>5.格式化输出</h2><pre class=" language-python"><code class="language-python">first <span class="token operator">=</span> <span class="token string">"John"</span>
-last  <span class="token operator">=</span> <span class="token string">"Smith"</span>
-massage <span class="token operator">=</span> first <span class="token operator">+</span> <span class="token string">" ["</span> <span class="token operator">+</span> last <span class="token operator">+</span> <span class="token string">"] is a coder!"</span><span class="token comment" spellcheck="true">#简单句子</span>
-msg <span class="token operator">=</span> f<span class="token string">"{first} [{last}] is a coder!"</span><span class="token comment" spellcheck="true">#优化：留空</span>
-<span class="token keyword">print</span><span class="token punctuation">(</span>massage<span class="token punctuation">)</span>
-<span class="token keyword">print</span><span class="token punctuation">(</span>msg<span class="token punctuation">)</span></code></pre>
-<h1 id="二、运算"><a href="#二、运算" class="headerlink" title="二、运算"></a>二、运算</h1><h2 id="1-运算一"><a href="#1-运算一" class="headerlink" title="1.运算一"></a>1.运算一</h2><pre class=" language-python"><code class="language-python"><span class="token comment" spellcheck="true"># 浮点数有尾数：0.1 + 0.2 ！= 0.3</span>
+</li>
+<li>多行字符串<pre class=" language-python"><code class="language-python">email <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token string">''</span>'
+Hi<span class="token punctuation">,</span>josh<span class="token punctuation">:</span>
+</code></pre>
+</li>
+</ol>
+<p>This is a letter for you!</p>
+<p>Thank you!<br>The Team<br>‘’’)<br>print (email) # 输出 ‘’’ ‘’’的内容（原格式）</p>
+<pre><code>5. 格式化输出
+``` python
+first = "John"
+last  = "Smith"
+massage = first + " [" + last + "] is a coder!"#简单句子
+msg = f"{first} [{last}] is a coder!"#优化：留空
+print(massage)
+print(msg)</code></pre><ol start="6">
+<li>输入数据个数不确定时<pre class=" language-python"><code class="language-python"><span class="token keyword">def</span> <span class="token function">shuru</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+  li <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token punctuation">]</span>
+  shuru <span class="token operator">=</span> input<span class="token punctuation">(</span><span class="token string">"输入数据：（回车结束） "</span><span class="token punctuation">)</span>
+  <span class="token keyword">while</span> shuru <span class="token operator">!=</span> <span class="token string">""</span><span class="token punctuation">:</span>
+       li<span class="token punctuation">.</span>append<span class="token punctuation">(</span>eval<span class="token punctuation">(</span>shuru<span class="token punctuation">)</span><span class="token punctuation">)</span>
+       shuru <span class="token operator">=</span> input<span class="token punctuation">(</span><span class="token string">"输入数据：（回车结束） "</span><span class="token punctuation">)</span>
+  <span class="token keyword">return</span> li</code></pre>
+</li>
+<li>输入多个值<pre class=" language-python"><code class="language-python">i<span class="token punctuation">,</span>j <span class="token operator">=</span> eval<span class="token punctuation">(</span>input<span class="token punctuation">(</span><span class="token string">"输入i和j的值（逗号隔开）："</span><span class="token punctuation">)</span><span class="token punctuation">)</span></code></pre>
+<h2 id="二、运算"><a href="#二、运算" class="headerlink" title="二、运算"></a>二、运算</h2></li>
+<li>运算一<pre class=" language-python"><code class="language-python"><span class="token comment" spellcheck="true"># 浮点数有尾数：0.1 + 0.2 ！= 0.3</span>
 <span class="token comment" spellcheck="true"># 四舍五入：round(x,d) : 对x四舍五入，截取d位小数</span>
 <span class="token comment" spellcheck="true"># 浮点数：4.3e-3  表示0.0043   9.6e5  表示960000.0</span>
 <span class="token comment" spellcheck="true"># 故 round（0.1 + 0.2，1） = 0.3</span>
@@ -582,13 +603,15 @@ msg <span class="token operator">=</span> f<span class="token string">"{first} [
 <span class="token comment" spellcheck="true"># z = 1.23e-4+5.6e+89j  表示复数</span>
 <span class="token comment" spellcheck="true"># 获得实部：z.real</span>
 <span class="token comment" spellcheck="true"># 获得虚部：z.imag</span></code></pre>
-<h2 id="2-运算二"><a href="#2-运算二" class="headerlink" title="2.运算二"></a>2.运算二</h2><pre class=" language-python"><code class="language-python"><span class="token keyword">print</span><span class="token punctuation">(</span><span class="token number">10</span> <span class="token operator">*</span> <span class="token number">3</span><span class="token punctuation">)</span><span class="token comment" spellcheck="true">#乘法</span>
+</li>
+<li>运算二<pre class=" language-python"><code class="language-python"><span class="token keyword">print</span><span class="token punctuation">(</span><span class="token number">10</span> <span class="token operator">*</span> <span class="token number">3</span><span class="token punctuation">)</span><span class="token comment" spellcheck="true">#乘法</span>
 <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token number">10</span> <span class="token operator">**</span> <span class="token number">3</span><span class="token punctuation">)</span><span class="token comment" spellcheck="true">#幂：3次方</span>
 <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token number">10</span> <span class="token operator">**</span> <span class="token number">0.5</span><span class="token punctuation">)</span> <span class="token comment" spellcheck="true"># 开平方 根号10</span>
 <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token number">10</span> <span class="token operator">/</span> <span class="token number">3</span><span class="token punctuation">)</span><span class="token comment" spellcheck="true">#除法（带小数）</span>
 <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token number">10</span> <span class="token operator">//</span> <span class="token number">3</span><span class="token punctuation">)</span><span class="token comment" spellcheck="true">#除法（）不带小数</span>
 <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token number">10</span> <span class="token operator">%</span> <span class="token number">3</span><span class="token punctuation">)</span><span class="token comment" spellcheck="true">#模运算</span></code></pre>
-<h2 id="3-运算三"><a href="#3-运算三" class="headerlink" title="3.运算三"></a>3.运算三</h2><pre class=" language-python"><code class="language-python">x <span class="token operator">=</span> <span class="token number">10</span>
+</li>
+<li>运算三<pre class=" language-python"><code class="language-python">x <span class="token operator">=</span> <span class="token number">10</span>
 x <span class="token operator">=</span> x <span class="token operator">+</span> <span class="token number">3</span>
 x<span class="token operator">+=</span> <span class="token number">3</span>
 x<span class="token operator">-=</span> <span class="token number">3</span>
@@ -597,7 +620,7 @@ x <span class="token operator">=</span> <span class="token number">10</span> <sp
 <blockquote>
 <p> 注：<br> print(“转换后{:.2f}F”.format(C))      （{:.2f} 小数点保留2位小数）<br> print(f”{a:.2f}”) # 也是保留2位小数</p>
 </blockquote>
-<h1 id="三、一些数学函数"><a href="#三、一些数学函数" class="headerlink" title="三、一些数学函数"></a>三、一些数学函数</h1><pre class=" language-python"><code class="language-python">x <span class="token operator">=</span> <span class="token number">2.9</span>
+<h2 id="三、一些数学函数"><a href="#三、一些数学函数" class="headerlink" title="三、一些数学函数"></a>三、一些数学函数</h2><pre class=" language-python"><code class="language-python">x <span class="token operator">=</span> <span class="token number">2.9</span>
 <span class="token keyword">print</span><span class="token punctuation">(</span>round<span class="token punctuation">(</span>x<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token comment" spellcheck="true">#四舍五入</span>
 a <span class="token operator">=</span> <span class="token operator">-</span><span class="token number">985</span>
 <span class="token keyword">print</span><span class="token punctuation">(</span>abs<span class="token punctuation">(</span>a<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token comment" spellcheck="true">#取绝对值</span>
@@ -609,7 +632,9 @@ a <span class="token operator">=</span> <span class="token operator">-</span><sp
 max<span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">,</span>min<span class="token punctuation">(</span><span class="token punctuation">)</span>函数
 int<span class="token punctuation">(</span>x<span class="token punctuation">)</span>
 float<span class="token punctuation">(</span>x<span class="token punctuation">)</span> 转换</code></pre>
-<h1 id="END"><a href="#END" class="headerlink" title="END"></a>END</h1><script>
+<h1 id="END"><a href="#END" class="headerlink" title="END"></a>END</h1></li>
+</ol>
+<script>
         document.querySelectorAll('.github-emoji')
           .forEach(el => {
             if (!el.dataset.src) { return; }
@@ -737,7 +762,7 @@ float<span class="token punctuation">(</span>x<span class="token punctuation">)<
         repo: 'comments2.github.io',
         owner: 'gqd000',
         admin: "gqd000",
-        id: '2020-03-08T00-00-00',
+        id: '2020-03-08T02-24-56',
         distractionFreeMode: false  // Facebook-like distraction free mode
     });
 
@@ -1021,18 +1046,17 @@ float<span class="token punctuation">(</span>x<span class="token punctuation">)<
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="far fa-dot-circle"></i>&nbsp;本篇
-            </div>
+                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/posts/4ba3.html">
+                <a href="/posts/dbd9.html">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/loading.gif" data-original="https://cdn.jsdelivr.net/gh/gqd000/hexoblog2.github.io/medias/featureimages/7.jpg" class="responsive-img" alt="python学习笔记（一）">
+                        <img src="/medias/loading.gif" data-original="https://cdn.jsdelivr.net/gh/gqd000/hexoblog2.github.io/medias/featureimages/3.jpg" class="responsive-img" alt="python学习笔记（二）">
                         
-                        <span class="card-title">python学习笔记（一）</span>
+                        <span class="card-title">python学习笔记（二）</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -1042,18 +1066,21 @@ float<span class="token punctuation">(</span>x<span class="token punctuation">)<
                         
                     </div>
                     <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2020-03-08
-                            </span>
+                        <span class="publish-date">
+                            <i class="far fa-clock fa-fw icon-date"></i>2020-03-10
+                        </span>
                         <span class="publish-author">
                             
-                            <i class="fas fa-user fa-fw"></i>
-                            青笙挽歌
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/Python%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" class="post-category">
+                                    Python学习笔记
+                                </a>
+                            
                             
                         </span>
                     </div>
                 </div>
-
                 
                 <div class="card-action article-tags">
                     
@@ -1302,7 +1329,7 @@ code[class*="language-"], pre[class*="language-"] { white-space: pre !important;
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">1.4k</span>&nbsp;字
+                class="white-color">2.8k</span>&nbsp;字
             
             
             

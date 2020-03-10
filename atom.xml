@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://www.hexoblog.gq/"/>
-  <updated>2020-03-10T03:38:15.763Z</updated>
+  <updated>2020-03-10T15:47:37.653Z</updated>
   <id>https://www.hexoblog.gq/</id>
   
   <author>
@@ -17,11 +17,78 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>python学习笔记（三）</title>
+    <link href="https://www.hexoblog.gq/posts/d7a0.html"/>
+    <id>https://www.hexoblog.gq/posts/d7a0.html</id>
+    <published>2020-03-10T15:47:08.300Z</published>
+    <updated>2020-03-10T15:47:37.653Z</updated>
+    
+    <summary type="html">
+    
+      python学习笔记（三）
+这里我将记录我学习python基础的笔记来记录我的学习
+
+一、条件语句
+ 1. if语句is_hot = False
+    is_clod = True
+    if is_hot :
+     print(&quot;It&#39;s a hot day!&quot;)
+     print(&quot;Drink a lot of water!&quot;)
+    elif is_clod :
+     print(&quot;It&#39;s a cold day!&quot;)
+     print(&quot;Wear warm clothes!&quot;)
+    else:
+     print(&quot;It&#39;s a lovely day!&quot;)
+
+    
+    </summary>
+    
+    
+      <category term="Python学习笔记" scheme="https://www.hexoblog.gq/categories/Python%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+    
+      <category term="IT" scheme="https://www.hexoblog.gq/tags/IT/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>python学习笔记（二）</title>
+    <link href="https://www.hexoblog.gq/posts/dbd9.html"/>
+    <id>https://www.hexoblog.gq/posts/dbd9.html</id>
+    <published>2020-03-10T15:27:56.329Z</published>
+    <updated>2020-03-10T15:45:49.113Z</updated>
+    
+    <summary type="html">
+    
+      python学习笔记（二）
+这里我将记录我学习python基础的笔记来记录我的学习
+
+一、字符串
+ 1. 字符串的基本操作course = &quot;Python for Beginners&quot;
+    print(course)
+    print(course[0]) # 输出第一个字符
+    print(course[-1]) # 输出最后一个字符
+    print(course[-2]) # 输出倒数第二个字符
+    print(course[0:3]) #输出第0到3个字符
+    print(course[1:]) #输出从1以后的字符串
+    print(course[:5]) #
+    
+    </summary>
+    
+    
+      <category term="Python学习笔记" scheme="https://www.hexoblog.gq/categories/Python%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+    
+      <category term="IT" scheme="https://www.hexoblog.gq/tags/IT/"/>
+    
+  </entry>
+  
+  <entry>
     <title>python学习笔记（一）</title>
     <link href="https://www.hexoblog.gq/posts/4ba3.html"/>
     <id>https://www.hexoblog.gq/posts/4ba3.html</id>
-    <published>2020-03-07T16:00:00.000Z</published>
-    <updated>2020-03-10T03:38:15.763Z</updated>
+    <published>2020-03-07T18:24:56.283Z</published>
+    <updated>2020-03-10T15:46:03.565Z</updated>
     
     <summary type="html">
     
@@ -29,26 +96,30 @@
 这里我将记录我学习python基础的笔记来记录我的学习
 
 一、输入与输出
-1.输入与输出
-a = input()
-print(a)
+ 1. 输入与输出a = input()
+    print(a)
+    
+     2. 评估函数和强制转换eval() 评估函数：字符串转数字等
+        
+        
+        
+    
+    
 
-2.评估函数和强制转换
-eval() 评估函数：字符串转数字等
-
-# 强制转换
-birth = input (&quot;Birth year: &quot;)
+强制转换
+birth = input (“Birth year: “)
 a = 2020 - int(birth)
-print(&quot;You age: &quot; + str(a))
-print(f&quot;You age: {str(a)}&quot;)
+print(“You age: “ + str(a))
+print(f”You age: {str(a)}”)
 
-强制转换实例
+&amp;gt; 强制转换实例
+``` python
 
-weigth = input(&quot;Please write you weight(g): &quot;)
-kg = int(weigt
     
     </summary>
     
+    
+      <category term="Python学习笔记" scheme="https://www.hexoblog.gq/categories/Python%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
     
     
       <category term="IT" scheme="https://www.hexoblog.gq/tags/IT/"/>
@@ -60,7 +131,7 @@ kg = int(weigt
     <link href="https://www.hexoblog.gq/posts/c267.html"/>
     <id>https://www.hexoblog.gq/posts/c267.html</id>
     <published>2020-03-04T16:00:00.000Z</published>
-    <updated>2020-03-10T03:37:43.081Z</updated>
+    <updated>2020-03-10T15:02:05.993Z</updated>
     
     <summary type="html">
     
