@@ -88,7 +88,7 @@
     <link href="https://www.hexoblog.gq/posts/4ba3.html"/>
     <id>https://www.hexoblog.gq/posts/4ba3.html</id>
     <published>2020-03-07T16:00:00.000Z</published>
-    <updated>2020-03-12T12:53:25.824Z</updated>
+    <updated>2020-03-12T13:24:44.581Z</updated>
     
     <summary type="html">
     
@@ -96,23 +96,24 @@
 这里我将记录我学习python基础的笔记来记录我的学习
 
 一、输入与输出
- 1. 输入与输出a = input()
+ 1. 输入与输出
+    
+    a = input()
     print(a)
     
     
- 2. 评估函数和强制转换eval() 评估函数：字符串转数字等
+ 2. 评估函数和强制转换
+    
+    eval() 评估函数：字符串转数字等
     
     
-
-二、强制转换
-birth = input (&quot;Birth year: &quot;)
-a = 2020 - int(birth)
-print(&quot;You age: &quot; + str(a))
-print(f&quot;You age: {str(a)}&quot;)
-
-强制转换实例
-
-weigth = input(&quot;Please write you wei
+ 3. 二、强制转换
+    
+    birth = input (&quot;Birth year: &quot;)
+    a = 2020 - int(birth)
+    print(&quot;You age: &quot; + str(a))
+    print(f&quot;You age: {str(a)}&quot;)
+ 
     
     </summary>
     

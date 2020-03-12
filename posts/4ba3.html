@@ -549,13 +549,15 @@ if (windowWidth > 768) {
 <p>这里我将记录我学习python基础的笔记来记录我的学习</p>
 </blockquote>
 <h2 id="一、输入与输出"><a href="#一、输入与输出" class="headerlink" title="一、输入与输出"></a>一、输入与输出</h2><ol>
-<li>输入与输出<pre class=" language-python"><code class="language-python">a <span class="token operator">=</span> input<span class="token punctuation">(</span><span class="token punctuation">)</span>
+<li><p>输入与输出</p>
+<pre class=" language-python"><code class="language-python">a <span class="token operator">=</span> input<span class="token punctuation">(</span><span class="token punctuation">)</span>
 <span class="token keyword">print</span><span class="token punctuation">(</span>a<span class="token punctuation">)</span></code></pre>
 </li>
-<li>评估函数和强制转换<pre class=" language-python"><code class="language-python">eval<span class="token punctuation">(</span><span class="token punctuation">)</span> 评估函数：字符串转数字等</code></pre>
+<li><p>评估函数和强制转换</p>
+<pre class=" language-python"><code class="language-python">eval<span class="token punctuation">(</span><span class="token punctuation">)</span> 评估函数：字符串转数字等</code></pre>
 </li>
-</ol>
-<h1 id="二、强制转换"><a href="#二、强制转换" class="headerlink" title="二、强制转换"></a>二、强制转换</h1><pre class=" language-python"><code class="language-python">birth <span class="token operator">=</span> input <span class="token punctuation">(</span><span class="token string">"Birth year: "</span><span class="token punctuation">)</span>
+<li><p>二、强制转换</p>
+<pre class=" language-python"><code class="language-python">birth <span class="token operator">=</span> input <span class="token punctuation">(</span><span class="token string">"Birth year: "</span><span class="token punctuation">)</span>
 a <span class="token operator">=</span> <span class="token number">2020</span> <span class="token operator">-</span> int<span class="token punctuation">(</span>birth<span class="token punctuation">)</span>
 <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"You age: "</span> <span class="token operator">+</span> str<span class="token punctuation">(</span>a<span class="token punctuation">)</span><span class="token punctuation">)</span>
 <span class="token keyword">print</span><span class="token punctuation">(</span>f<span class="token string">"You age: {str(a)}"</span><span class="token punctuation">)</span></code></pre>
@@ -566,13 +568,15 @@ a <span class="token operator">=</span> <span class="token number">2020</span> <
 kg <span class="token operator">=</span> int<span class="token punctuation">(</span>weigth<span class="token punctuation">)</span> <span class="token operator">/</span> <span class="token number">1000</span>
 <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"That is your weight(kg): "</span> <span class="token operator">+</span> str<span class="token punctuation">(</span>kg<span class="token punctuation">)</span><span class="token punctuation">)</span>
 <span class="token keyword">print</span><span class="token punctuation">(</span>kg<span class="token punctuation">)</span></code></pre>
-<ol start="3">
-<li>输入提示符和字符串的拼接<pre class=" language-python"><code class="language-python">first_name <span class="token operator">=</span> input <span class="token punctuation">(</span><span class="token string">"what is you first_name? "</span><span class="token punctuation">)</span>
+</li>
+<li><p>输入提示符和字符串的拼接</p>
+<pre class=" language-python"><code class="language-python">first_name <span class="token operator">=</span> input <span class="token punctuation">(</span><span class="token string">"what is you first_name? "</span><span class="token punctuation">)</span>
 <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"Hi "</span> <span class="token operator">+</span> first_name <span class="token operator">+</span> <span class="token string">"!"</span><span class="token punctuation">)</span> <span class="token comment" spellcheck="true">#字符串连接</span>
 clour <span class="token operator">=</span> input <span class="token punctuation">(</span><span class="token string">"what is your favourite clour? "</span><span class="token punctuation">)</span>
 <span class="token keyword">print</span><span class="token punctuation">(</span>first_name <span class="token operator">+</span> <span class="token string">" likes "</span> <span class="token operator">+</span> clour<span class="token punctuation">)</span></code></pre>
 </li>
-<li>多行字符串<pre class=" language-python"><code class="language-python">email <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token triple-quoted-string string">'''
+<li><p>多行字符串</p>
+<pre class=" language-python"><code class="language-python">email <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token triple-quoted-string string">'''
 Hi,josh:
 This is a letter for you! 
 Thank you!
@@ -580,14 +584,16 @@ The Team
 '''</span><span class="token punctuation">)</span>
 <span class="token keyword">print</span> <span class="token punctuation">(</span>email<span class="token punctuation">)</span>   <span class="token comment" spellcheck="true"># 输出 </span><span class="token triple-quoted-string string">''' '''</span>的内容（原格式）</code></pre>
 </li>
-<li>格式化输出<pre class=" language-python"><code class="language-python">first <span class="token operator">=</span> <span class="token string">"John"</span>
+<li><p>格式化输出</p>
+<pre class=" language-python"><code class="language-python">first <span class="token operator">=</span> <span class="token string">"John"</span>
 last  <span class="token operator">=</span> <span class="token string">"Smith"</span>
 massage <span class="token operator">=</span> first <span class="token operator">+</span> <span class="token string">" ["</span> <span class="token operator">+</span> last <span class="token operator">+</span> <span class="token string">"] is a coder!"</span><span class="token comment" spellcheck="true">#简单句子</span>
 msg <span class="token operator">=</span> f<span class="token string">"{first} [{last}] is a coder!"</span><span class="token comment" spellcheck="true">#优化：留空</span>
 <span class="token keyword">print</span><span class="token punctuation">(</span>massage<span class="token punctuation">)</span>
 <span class="token keyword">print</span><span class="token punctuation">(</span>msg<span class="token punctuation">)</span></code></pre>
 </li>
-<li>输入数据个数不确定时<pre class=" language-python"><code class="language-python"><span class="token keyword">def</span> <span class="token function">shuru</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+<li><p>输入数据个数不确定时</p>
+<pre class=" language-python"><code class="language-python"><span class="token keyword">def</span> <span class="token function">shuru</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
   li <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token punctuation">]</span>
   shuru <span class="token operator">=</span> input<span class="token punctuation">(</span><span class="token string">"输入数据：（回车结束） "</span><span class="token punctuation">)</span>
   <span class="token keyword">while</span> shuru <span class="token operator">!=</span> <span class="token string">""</span><span class="token punctuation">:</span>
@@ -595,7 +601,8 @@ msg <span class="token operator">=</span> f<span class="token string">"{first} [
        shuru <span class="token operator">=</span> input<span class="token punctuation">(</span><span class="token string">"输入数据：（回车结束） "</span><span class="token punctuation">)</span>
   <span class="token keyword">return</span> li</code></pre>
 </li>
-<li>输入多个值<pre class=" language-python"><code class="language-python">i<span class="token punctuation">,</span>j <span class="token operator">=</span> eval<span class="token punctuation">(</span>input<span class="token punctuation">(</span><span class="token string">"输入i和j的值（逗号隔开）："</span><span class="token punctuation">)</span><span class="token punctuation">)</span></code></pre>
+<li><p>输入多个值</p>
+<pre class=" language-python"><code class="language-python">i<span class="token punctuation">,</span>j <span class="token operator">=</span> eval<span class="token punctuation">(</span>input<span class="token punctuation">(</span><span class="token string">"输入i和j的值（逗号隔开）："</span><span class="token punctuation">)</span><span class="token punctuation">)</span></code></pre>
 </li>
 </ol>
 <h2 id="二、运算"><a href="#二、运算" class="headerlink" title="二、运算"></a>二、运算</h2><ol>
