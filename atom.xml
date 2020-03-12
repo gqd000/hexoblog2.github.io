@@ -56,7 +56,7 @@
     <link href="https://www.hexoblog.gq/posts/dbd9.html"/>
     <id>https://www.hexoblog.gq/posts/dbd9.html</id>
     <published>2020-03-08T16:00:00.000Z</published>
-    <updated>2020-03-10T16:40:04.294Z</updated>
+    <updated>2020-03-12T12:49:32.793Z</updated>
     
     <summary type="html">
     
@@ -64,16 +64,14 @@
 这里我将记录我学习python基础的笔记来记录我的学习
 
 一、字符串
- 1.  字符串的基本操作
-     
-     course = &quot;Python for Beginners&quot;
-     print(course)
-     print(course[0]) # 输出第一个字符
-     print(course[-1]) # 输出最后一个字符
-     print(course[-2]) # 输出倒数第二个字符
-     print(course[0:3]) #输出第0到3个字符
-     print(course[1:]) #输出从1以后的字符串
-    
+ 1. 字符串的基本操作course = &quot;Python for Beginners&quot;
+    print(course)
+    print(course[0]) # 输出第一个字符
+    print(course[-1]) # 输出最后一个字符
+    print(course[-2]) # 输出倒数第二个字符
+    print(course[0:3]) #输出第0到3个字符
+    print(course[1:]) #输出从1以后的字符串
+    print(course[:5]) #
     
     </summary>
     
