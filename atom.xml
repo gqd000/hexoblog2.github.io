@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://www.hexoblog.gq/"/>
-  <updated>2020-03-10T15:56:09.645Z</updated>
+  <updated>2020-03-12T12:53:06.402Z</updated>
   <id>https://www.hexoblog.gq/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://www.hexoblog.gq/posts/d7a0.html"/>
     <id>https://www.hexoblog.gq/posts/d7a0.html</id>
     <published>2020-03-09T16:00:00.000Z</published>
-    <updated>2020-03-10T15:56:09.645Z</updated>
+    <updated>2020-03-12T12:53:06.402Z</updated>
     
     <summary type="html">
     
@@ -56,7 +56,7 @@
     <link href="https://www.hexoblog.gq/posts/dbd9.html"/>
     <id>https://www.hexoblog.gq/posts/dbd9.html</id>
     <published>2020-03-08T16:00:00.000Z</published>
-    <updated>2020-03-12T12:49:32.793Z</updated>
+    <updated>2020-03-12T12:51:47.691Z</updated>
     
     <summary type="html">
     
@@ -88,7 +88,7 @@
     <link href="https://www.hexoblog.gq/posts/4ba3.html"/>
     <id>https://www.hexoblog.gq/posts/4ba3.html</id>
     <published>2020-03-07T16:00:00.000Z</published>
-    <updated>2020-03-10T16:38:09.616Z</updated>
+    <updated>2020-03-12T12:53:25.824Z</updated>
     
     <summary type="html">
     
@@ -96,20 +96,23 @@
 这里我将记录我学习python基础的笔记来记录我的学习
 
 一、输入与输出
- 1.  输入与输出a = input()
-     print(a)
-     
-     
- 2.  评估函数和强制转换eval() 评估函数：字符串转数字等
-     
-     二、强制转换
-     birth = input (&quot;Birth year: &quot;)
-     a = 2020 - int(birth)
-     print(&quot;You age: &quot; + str(a))
-     print(f&quot;You age: {str(a)}&quot;)
-     
-     强制转换实例
-  
+ 1. 输入与输出a = input()
+    print(a)
+    
+    
+ 2. 评估函数和强制转换eval() 评估函数：字符串转数字等
+    
+    
+
+二、强制转换
+birth = input (&quot;Birth year: &quot;)
+a = 2020 - int(birth)
+print(&quot;You age: &quot; + str(a))
+print(f&quot;You age: {str(a)}&quot;)
+
+强制转换实例
+
+weigth = input(&quot;Please write you wei
     
     </summary>
     

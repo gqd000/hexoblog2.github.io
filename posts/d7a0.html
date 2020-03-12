@@ -522,7 +522,7 @@ if (windowWidth > 768) {
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    588
+                    587
                 </div>
                 
 
@@ -574,13 +574,15 @@ has_good_credit <span class="token operator">=</span> <span class="token boolean
 <span class="token keyword">if</span> has_good_credit <span class="token operator">and</span> <span class="token operator">not</span> has_high_income<span class="token punctuation">:</span>
  <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"Eligible for loan"</span><span class="token punctuation">)</span></code></pre>
 </li>
-<li>运算符<pre class=" language-python"><code class="language-python"><span class="token number">3</span> 运算符：<span class="token operator">></span>、<span class="token operator">>=</span>、<span class="token operator">&lt;</span>、<span class="token operator">&lt;=</span>、<span class="token operator">==</span>、<span class="token operator">!=</span>、<span class="token operator">and</span>、<span class="token operator">or</span>。
+<li>运算符<pre class=" language-python"><code class="language-python"><span class="token comment" spellcheck="true"># 运算符：>、>=、&lt;、&lt;=、==、!=、and、or。</span>
 temperature <span class="token operator">=</span> input<span class="token punctuation">(</span><span class="token string">"请输入温度："</span><span class="token punctuation">)</span>
 <span class="token keyword">if</span> int<span class="token punctuation">(</span>temperature<span class="token punctuation">)</span> <span class="token operator">></span> <span class="token number">30</span><span class="token punctuation">:</span>
  <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"It's a hot day!"</span><span class="token punctuation">)</span>
 <span class="token keyword">else</span> <span class="token punctuation">:</span>
  <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"It's not a hot day!"</span><span class="token punctuation">)</span></code></pre>
-<h2 id="二、循环语句"><a href="#二、循环语句" class="headerlink" title="二、循环语句"></a>二、循环语句</h2></li>
+</li>
+</ol>
+<h2 id="二、循环语句"><a href="#二、循环语句" class="headerlink" title="二、循环语句"></a>二、循环语句</h2><ol>
 <li>for语句<pre class=" language-python"><code class="language-python"><span class="token keyword">for</span> item <span class="token keyword">in</span> <span class="token string">'Python'</span><span class="token punctuation">:</span><span class="token comment" spellcheck="true">#逐个字符输出</span>
  <span class="token keyword">print</span><span class="token punctuation">(</span>item<span class="token punctuation">)</span><span class="token comment" spellcheck="true">#自带换行</span>
 <span class="token keyword">for</span> item <span class="token keyword">in</span> <span class="token punctuation">[</span><span class="token string">'Mosh'</span><span class="token punctuation">,</span><span class="token string">'John'</span><span class="token punctuation">,</span><span class="token string">'Saras'</span><span class="token punctuation">]</span><span class="token punctuation">:</span><span class="token comment" spellcheck="true">#逐个字符串输出</span>
@@ -621,6 +623,8 @@ temperature <span class="token operator">=</span> input<span class="token punctu
  <span class="token keyword">else</span><span class="token punctuation">:</span>
      a <span class="token operator">=</span> int<span class="token punctuation">(</span>weight<span class="token punctuation">)</span> <span class="token operator">*</span> <span class="token number">1000</span>
      <span class="token keyword">print</span><span class="token punctuation">(</span>f<span class="token string">"转换后的体重：{a}g"</span><span class="token punctuation">)</span></code></pre>
+</li>
+</ol>
 <h2 id="三、True-和-False-的使用以及循环实例"><a href="#三、True-和-False-的使用以及循环实例" class="headerlink" title="三、True 和 False 的使用以及循环实例"></a>三、True 和 False 的使用以及循环实例</h2><pre class=" language-python"><code class="language-python"><span class="token comment" spellcheck="true"># 开车实例：</span>
 <span class="token keyword">import</span> math
 <span class="token comment" spellcheck="true"># in_put = input("> ")</span>
@@ -629,34 +633,32 @@ temperature <span class="token operator">=</span> input<span class="token punctu
 started <span class="token operator">=</span> <span class="token boolean">False</span>
 stopped <span class="token operator">=</span> <span class="token boolean">False</span>
 <span class="token keyword">while</span> <span class="token boolean">True</span><span class="token punctuation">:</span>
- in_put <span class="token operator">=</span> input <span class="token punctuation">(</span><span class="token string">"> "</span><span class="token punctuation">)</span><span class="token punctuation">.</span>lower<span class="token punctuation">(</span><span class="token punctuation">)</span>
- <span class="token keyword">if</span> in_put <span class="token operator">==</span> <span class="token string">'help'</span><span class="token punctuation">:</span>
-     <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token triple-quoted-string string">'''
+    in_put <span class="token operator">=</span> input <span class="token punctuation">(</span><span class="token string">"> "</span><span class="token punctuation">)</span><span class="token punctuation">.</span>lower<span class="token punctuation">(</span><span class="token punctuation">)</span>
+    <span class="token keyword">if</span> in_put <span class="token operator">==</span> <span class="token string">'help'</span><span class="token punctuation">:</span>
+        <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token triple-quoted-string string">'''
 start - to start the car
 stop - to stop the car
 quit - to exit
-     '''</span><span class="token punctuation">)</span>
- <span class="token keyword">elif</span> in_put <span class="token operator">==</span> <span class="token string">'start'</span><span class="token punctuation">:</span>
-     <span class="token keyword">if</span> started <span class="token punctuation">:</span>
-         <span class="token keyword">print</span> <span class="token punctuation">(</span><span class="token string">"You have already started the car!what are you dong?"</span><span class="token punctuation">)</span>
-     <span class="token keyword">else</span><span class="token punctuation">:</span>
-         started <span class="token operator">=</span> <span class="token boolean">True</span>
-         stopped <span class="token operator">=</span> <span class="token boolean">False</span>
-         <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">'Car started ......Ready to go!'</span><span class="token punctuation">)</span>
- <span class="token keyword">elif</span> in_put <span class="token operator">==</span> <span class="token string">'stop'</span><span class="token punctuation">:</span>
-     <span class="token keyword">if</span> stopped<span class="token punctuation">:</span>
-         <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"You have already stopped the car!what are you doing?"</span><span class="token punctuation">)</span>
-     <span class="token keyword">else</span> <span class="token punctuation">:</span>
-         stopped <span class="token operator">=</span> <span class="token boolean">True</span>
-         started <span class="token operator">=</span> <span class="token boolean">False</span>
-         <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">'Car stopped.'</span><span class="token punctuation">)</span>
- <span class="token keyword">elif</span> in_put <span class="token operator">==</span> <span class="token string">'quit'</span><span class="token punctuation">:</span>
-     <span class="token keyword">break</span>
- <span class="token keyword">else</span> <span class="token punctuation">:</span>
-     <span class="token keyword">print</span> <span class="token punctuation">(</span><span class="token string">"I don't understand that ......."</span><span class="token punctuation">)</span></code></pre>
-<h2 id="END"><a href="#END" class="headerlink" title="END"></a>END</h2></li>
-</ol>
-<script>
+        '''</span><span class="token punctuation">)</span>
+    <span class="token keyword">elif</span> in_put <span class="token operator">==</span> <span class="token string">'start'</span><span class="token punctuation">:</span>
+        <span class="token keyword">if</span> started <span class="token punctuation">:</span>
+            <span class="token keyword">print</span> <span class="token punctuation">(</span><span class="token string">"You have already started the car!what are you dong?"</span><span class="token punctuation">)</span>
+        <span class="token keyword">else</span><span class="token punctuation">:</span>
+            started <span class="token operator">=</span> <span class="token boolean">True</span>
+            stopped <span class="token operator">=</span> <span class="token boolean">False</span>
+            <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">'Car started ......Ready to go!'</span><span class="token punctuation">)</span>
+    <span class="token keyword">elif</span> in_put <span class="token operator">==</span> <span class="token string">'stop'</span><span class="token punctuation">:</span>
+        <span class="token keyword">if</span> stopped<span class="token punctuation">:</span>
+            <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"You have already stopped the car!what are you doing?"</span><span class="token punctuation">)</span>
+        <span class="token keyword">else</span> <span class="token punctuation">:</span>
+            stopped <span class="token operator">=</span> <span class="token boolean">True</span>
+            started <span class="token operator">=</span> <span class="token boolean">False</span>
+            <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">'Car stopped.'</span><span class="token punctuation">)</span>
+    <span class="token keyword">elif</span> in_put <span class="token operator">==</span> <span class="token string">'quit'</span><span class="token punctuation">:</span>
+        <span class="token keyword">break</span>
+    <span class="token keyword">else</span> <span class="token punctuation">:</span>
+        <span class="token keyword">print</span> <span class="token punctuation">(</span><span class="token string">"I don't understand that ......."</span><span class="token punctuation">)</span></code></pre>
+<h2 id="END"><a href="#END" class="headerlink" title="END"></a>END</h2><script>
         document.querySelectorAll('.github-emoji')
           .forEach(el => {
             if (!el.dataset.src) { return; }
