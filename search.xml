@@ -5,8 +5,8 @@
     
     <entry>
       <title>悲伤史</title>
-      <link href="/posts/d7a0.html"/>
-      <url>/posts/d7a0.html</url>
+      <link href="/posts/1234.html"/>
+      <url>/posts/1234.html</url>
       
         <content type="html"><![CDATA[<h1 id="终于回来了"><a href="#终于回来了" class="headerlink" title="终于回来了"></a>终于回来了</h1><blockquote><p>博客都一个多月没更了，唉，最近太忙了。前段时间更新了显卡驱动，还不小心把系统给格了，还好文件应用都在，只不过C盘没了，环境变量也都没了qaq，于是乎，我的git也就壮烈牺牲了，今天突然想起来，就搞好了，发篇测试。<span class="github-emoji" style="color: transparent;background:no-repeat url(https://github.githubassets.com/images/icons/emoji/unicode/1f602.png?v8) center/contain" data-src="https://github.githubassets.com/images/icons/emoji/unicode/1f602.png?v8">😂</span></p></blockquote><div align="center"><img src="/medias/loading.gif" data-original="https://i.loli.net/2020/04/15/Qgfzst5PceSyK4J.jpg" width="30%" height="30%"></div><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
       
