@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://www.hexoblog.gq/"/>
-  <updated>2020-03-12T12:53:06.402Z</updated>
+  <updated>2020-04-15T10:29:35.167Z</updated>
   <id>https://www.hexoblog.gq/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>python学习笔记（三）</title>
+    <link href="https://www.hexoblog.gq/posts/d7a0.html"/>
+    <id>https://www.hexoblog.gq/posts/d7a0.html</id>
+    <published>2020-04-14T16:00:00.000Z</published>
+    <updated>2020-04-15T10:29:35.167Z</updated>
+    
+    <summary type="html">
+    
+      终于回来了
+博客都一个多月没更了，唉，最近太忙了。前段时间更新了显卡驱动，还不小心把系统给格了，还好文件应用都在，只不过C盘没了，环境变量也都没了qaq，于是乎，我的git也就壮烈牺牲了，今天突然想起来，就搞好了，发篇测试。&lt;span class=&quot;github-emoji&quot; style=&quot;color: transparent;background:no-repeat url(https://github.githubassets.com/images/icons/emoji/unicode/1f602.png?v8) center/contain&quot; data-src=&quot;https://github.githubassets.com/images/icons/emoji/unicode/1f602.png?v8&quot;&gt;😂&lt;/span&gt;
+    
+    </summary>
+    
+    
+      <category term="Python学习笔记" scheme="https://www.hexoblog.gq/categories/Python%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+    
+      <category term="生活" scheme="https://www.hexoblog.gq/tags/%E7%94%9F%E6%B4%BB/"/>
+    
+  </entry>
   
   <entry>
     <title>python学习笔记（三）</title>
